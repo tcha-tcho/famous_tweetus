@@ -173,7 +173,7 @@ Famous(function(require) {
 
     SparkItem.prototype.setContent = function(content) {
         var userId = content['author'];
-        var iconUrl = 'content/default-pic.gif';
+        var iconUrl = 'img/default-pic.gif';
         if(userId in userInfo) {
             iconUrl = userInfo[userId]['pic'];
         }
